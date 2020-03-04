@@ -13,7 +13,6 @@ Note: Due Date is in YYYY-MM-DD format.
 You may assume that the data is internally consistent. For every checkout, there is a corresponding username and accession number in the input data, and no book is simultaneously checked out by two people.
 Each section of the input starts with a line containing a single keyword. The first section begins with a line containing Books. The second section begins with a line containing Borrowers. The third section begins with a line containing Checkouts. The end of the input is marked by a line containing EndOfInput.
 Write a Python program to read the data as described above and print out details about books that have been checked out. Each line should describe to one currently issued book in the following format:
-
 **Due Date~Full Name~Accession Number~Title**
 Your output should be sorted in increasing order of due date. For books due on the same date, sort in increasing order of full name. If the due date and full name are both the same, sort based on the accession number, and, finally, the title of the book.
 **Sample Input**
