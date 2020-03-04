@@ -28,6 +28,27 @@ We have the following constraints to guarantee that each polynomial has a unique
   - Exponents are always nonnegative
   
 For example, the polynomial introduced earlier is represented as:  
+```
+[(3,4),(-17,2),(-3,1),(5,0)]
+```
+The zero polynomial, 0, is represented as the empty list [], since it has no terms with nonzero coefficients.  
+Write Python functions for the following operations:
+```
+addpoly(p1,p2)
+multpoly(p1,p2)
+```
+**Sample Input 1**  
+```
+addpoly([(4,3),(3,0)],[(-4,3),(2,1)])
+```
+**Sample Output 1**
+```
+[(2, 1),(3, 0)]
+```
+**Explanation 1**
+```
+Explanation: (4x^3 + 3) + (-4x^3 + 2x) = 2x + 3
+```
 ### 5.1 HOGWARTS LIBRARY
 The library at the Hogwarts School of Witchcraft and Wizardry has computerized its book issuing process. The relevant information is provided as text from standard input in three parts: information about books, information about borrowers and information about checkouts. Each part has a specific line format, described below.  
 Information about books  
