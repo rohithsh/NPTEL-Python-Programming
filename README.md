@@ -16,7 +16,7 @@ Write a Python program to read the data as described above and print out details
  **Due Date~Full Name~Accession Number~Title**
 Your output should be sorted in increasing order of due date. For books due on the same date, sort in increasing order of full name. If the due date and full name are both the same, sort based on the accession number, and, finally, the title of the book.
 **Sample Input**
-'''Books
+```Books
 APM-001~Advanced Potion-Making
 GWG-001~Gadding With Ghouls
 APM-002~Advanced Potion-Making
@@ -40,10 +40,12 @@ SLY2301~GWG-001~2019-03-27
 SLY2308~APM-002~2019-03-14
 SLY2303~DMT-001~2019-04-03
 SLY2301~GWG-002~2019-04-03
-EndOfInput'''
+EndOfInput
+```
 **Sample Output**
-'''2019-03-14~Katie Bell~APM-002~Advanced Potion-Making
+```2019-03-14~Katie Bell~APM-002~Advanced Potion-Making
 2019-03-27~Bertram Aubrey~DMT-002~Defensive Magical Theory
 2019-03-27~Hannah Abbott~GWG-001~Gadding With Ghouls
 2019-04-03~Hannah Abbott~GWG-002~Gadding With Ghouls
-2019-04-03~Stewart Ackerley~DMT-001~Defensive Magical Theory'''
+2019-04-03~Stewart Ackerley~DMT-001~Defensive Magical Theory
+```
