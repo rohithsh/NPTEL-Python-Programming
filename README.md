@@ -1,7 +1,7 @@
 # NPTEL-Python-Programming
 Programming, Data Structures And Algorithms Using Python by IIT Madras Programming Assignment Answers
 
-###5.1 HOGWARTS LIBRARY
+### 5.1 HOGWARTS LIBRARY
 The library at the Hogwarts School of Witchcraft and Wizardry has computerized its book issuing process. The relevant information is provided as text from standard input in three parts: information about books, information about borrowers and information about checkouts. Each part has a specific line format, described below.
 Information about books
 Line format: Accession Number~Title
