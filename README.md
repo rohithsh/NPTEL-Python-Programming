@@ -1,5 +1,8 @@
 # NPTEL-Python-Programming
-Programming, Data Structures And Algorithms Using Python by IIT Madras.  
+Programming, Data Structures And Algorithms Using Python conducted by IIT Madras as a part of NPTEL.  
+Batch: Feb - Mar 2020  
+Duration: 8 Weeks  
+All answers were submitted by me as a part of *Weekly Programming Assignments* given to enrolled students during the course.
 ## Programming Assignment Answers
 ### 4.1 ORANGE CAP
 We represent scores of batsmen across a sequence of matches in a two level dictionary as follows:
