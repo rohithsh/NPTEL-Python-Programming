@@ -1,5 +1,5 @@
 # NPTEL-Python-Programming
-Programming, Data Structures And Algorithms Using Python conducted by IIT Madras as a part of NPTEL.  
+**Programming, Data Structures And Algorithms Using Python** conducted by IIT Madras as a part of NPTEL.  
 Batch: Feb - Mar 2020  
 Duration: 8 Weeks  
 All answers were submitted by me as a part of *Weekly Programming Assignments* given to enrolled students during the course.
