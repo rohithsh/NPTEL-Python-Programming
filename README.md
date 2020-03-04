@@ -4,16 +4,16 @@ Programming, Data Structures And Algorithms Using Python by IIT Madras Programmi
 ### 5.1 HOGWARTS LIBRARY
 The library at the Hogwarts School of Witchcraft and Wizardry has computerized its book issuing process. The relevant information is provided as text from standard input in three parts: information about books, information about borrowers and information about checkouts. Each part has a specific line format, described below.  
 Information about books  
-Line format: Accession Number~Title  
+Line format: Accession Number\~Title  
 Information about borrowers  
-Line format: Username~Full Name  
+Line format: Username\~Full Name  
 Information about checkouts  
-Line format: Username~Accession Number~Due Date  
-Note: Due Date is in YYYY-MM-DD format.  
+Line format: Username\~Accession Number\~Due Date  
+**Note: Due Date is in YYYY-MM-DD format.**    
 You may assume that the data is internally consistent. For every checkout, there is a corresponding username and accession number in the input data, and no book is simultaneously checked out by two people.  
 Each section of the input starts with a line containing a single keyword. The first section begins with a line containing Books. The second section begins with a line containing Borrowers. The third section begins with a line containing Checkouts. The end of the input is marked by a line containing EndOfInput.  
 Write a Python program to read the data as described above and print out details about books that have been checked out. Each line should describe to one currently issued book in the following format:  
- **Due Date~Full Name\~Accession Number~Title**  
+ **Due Date\~Full Name\~Accession Number\~Title**  
 Your output should be sorted in increasing order of due date. For books due on the same date, sort in increasing order of full name. If the due date and full name are both the same, sort based on the accession number, and, finally, the title of the book.  
  **Sample Input**
 ```Books
