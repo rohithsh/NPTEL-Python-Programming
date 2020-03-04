@@ -15,7 +15,7 @@ Each section of the input starts with a line containing a single keyword. The fi
 Write a Python program to read the data as described above and print out details about books that have been checked out. Each line should describe to one currently issued book in the following format:
  **Due Date~Full Name~Accession Number~Title**
 Your output should be sorted in increasing order of due date. For books due on the same date, sort in increasing order of full name. If the due date and full name are both the same, sort based on the accession number, and, finally, the title of the book.
-**Sample Input**
+ **Sample Input**
 ```Books
 APM-001~Advanced Potion-Making
 GWG-001~Gadding With Ghouls
