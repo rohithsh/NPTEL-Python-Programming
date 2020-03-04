@@ -15,6 +15,18 @@ orangecap({'match1':{'player1':57, 'player2':38}, 'match2':{'player3':9, 'player
 ```
 ('player3', 100)
 ```  
+### 4.2 and 4.3 ADDPOLY and MULTPOLY
+Let us consider polynomials in a single variable x with integer coefficients. For instance:
+```
+3x4 - 17x2 - 3x + 5
+```
+Each term of the polynomial can be represented as a pair of integers (coefficient,exponent). The polynomial itself is then a list of such pairs.  
+We have the following constraints to guarantee that each polynomial has a unique representation:  
+  - Terms are sorted in descending order of exponent
+  - No term has a zero cofficient
+  - No two terms have the same exponent
+  - Exponents are always nonnegative
+For example, the polynomial introduced earlier is represented as:  
 ### 5.1 HOGWARTS LIBRARY
 The library at the Hogwarts School of Witchcraft and Wizardry has computerized its book issuing process. The relevant information is provided as text from standard input in three parts: information about books, information about borrowers and information about checkouts. Each part has a specific line format, described below.  
 Information about books  
